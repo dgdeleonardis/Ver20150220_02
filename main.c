@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
             pdr++;
         }
     }
-    media = somma / DIM;
+    media = (float) somma / DIM;
     printf("Eta' media : %f\n", media);
     printf("Eta' massima : %d\n", max);
     printf("Eta' minima : %d\n", min);
